@@ -6,32 +6,10 @@
   <title>Clothing Store</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
-  <style>
-    /* Additional custom styles */
-    .landing {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 80vh;
-      text-align: center;
-    }
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 
-    .landing h1 {
-      font-size: 3rem;
-      margin-bottom: 1.5rem;
-    }
 
-    .landing p {
-      font-size: 1.5rem;
-      margin-bottom: 2rem;
-    }
-
-    .shop-now-btn {
-      padding: 0.8rem 2.5rem;
-      font-size: 1.2rem;
-    }
-  </style>
 </head>
 <body>
   <!-- Navbar Section -->
@@ -57,17 +35,17 @@
     </div>
   </nav>
 
-  <!-- Landing Section -->
-  <section id="home">
+<!-- Landing Section -->
+<section id="home" class="text-center">
     <div class="container">
-      <div class="landing">
-        <h1>Welcome to our Clothing Store</h1>
-        <p>Discover the latest fashion trends.</p>
-        <a href="products.html" class="btn btn-primary">Shop Now</a>
+      <div class="landing jumbotron">
+        <h1 class="animate__animated animate__fadeInDown animate__slow">Welcome to our Clothing Store</h1>
+        <p class="animate__animated animate__fadeInUp animate__slow">Discover the latest fashion trends.</p>
+        <button class="shop-now-btn btn btn-primary animate__animated animate__heartBeat animate__slow">Shop Now</button>
       </div>
     </div>
   </section>
-
+  
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

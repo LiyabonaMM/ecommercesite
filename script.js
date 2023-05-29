@@ -11,6 +11,31 @@ const products = [
         image: "img/product1.png",
         price: "R600"
       },
+      {
+        name: "LUCID HOODIE",
+        image: "img/product1.png",
+        price: "R600"
+      },
+      {
+        name: "LUCID HOODIE",
+        image: "img/product1.png",
+        price: "R600"
+      },
+      {
+        name: "LUCID HOODIE",
+        image: "img/product1.png",
+        price: "R600"
+      },
+      {
+        name: "LUCID HOODIE",
+        image: "img/product1.png",
+        price: "R600"
+      },
+      {
+        name: "LUCID HOODIE",
+        image: "img/product1.png",
+        price: "R600"
+      },
   ];
   
   // Function to create a product element
