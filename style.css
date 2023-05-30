@@ -1,10 +1,19 @@
 /* Custom CSS styles */
 body {
   font-family: 'Raleway', sans-serif;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.5;
+ display: none;
 }
 
 
-  /* Additional custom styles */
+
+  /*custom styles */
 .landing {
   display: flex;
   flex-direction: column;
@@ -50,11 +59,6 @@ body {
 .carousel-caption {
   bottom: 35%;
 }
-
-
-
-
-
 
 
 .shop-now-btn:hover {
