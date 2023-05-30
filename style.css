@@ -1,31 +1,45 @@
 /* Custom CSS styles */
 body {
-    font-family: 'Raleway', sans-serif;
-  }
-  
-  /* Rest of your CSS styles */
-  
-   /* Additional custom styles */
-   .landing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    text-align: center;
-  }
+  font-family: 'Raleway', sans-serif;
+}
 
-  .landing h1 {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
-  }
 
-  .landing p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-  }
+  /* Additional custom styles */
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  text-align: center;
+}
 
-  .shop-now-btn {
-    padding: 0.8rem 2.5rem;
-    font-size: 1.2rem;
-  }
+.landing h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.landing p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.shop-now-btn {
+  padding: 0.8rem 2.5rem;
+  font-size: 1.2rem;
+}
+#home {
+  height: 100vh;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.carousel-item img {
+  object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 35%;
+}
