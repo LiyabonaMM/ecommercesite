@@ -8,12 +8,12 @@ const products = [
 
   {
     name: "LUCID T-SHIRT",
-    image: "img/product2.png",
+    image: "https://i.postimg.cc/qqP8KQFR/product2.png",
     price: "R300"
   },
   {
     name: "LUCID BENEFITS",
-    image: "img/product3.png",
+    image: "https://i.postimg.cc/fL4MctN8/product3.png",
     price: "R650"
   },
   {
@@ -23,7 +23,7 @@ const products = [
   },
   {
     name: "LUCID INSOMNIA",
-    image: "img/product5.png",
+    image: "https://i.postimg.cc/Y9yfDHdD/product5.png",
     price: "R400"
   },
   {
